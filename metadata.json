@@ -1,0 +1,6 @@
+{
+  "name": "Bangladesh Civil Case Analysis Architecture",
+  "description": "An expert legal analytical suite utilizing Gemini AI to process land, contract, tort, family, and other civil disputes through the 14-stage Bangladesh Civil Case Analysis Architecture.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

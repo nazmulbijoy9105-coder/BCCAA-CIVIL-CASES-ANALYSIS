@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  --font-display: "Playfair Display", Georgia, serif;
+  
+  --color-legal-dark: #1E252B;
+  --color-legal-gold: #C5A059;
+  --color-legal-cream: #FDFBF7;
+  --color-legal-slate: #4A5560;
+}
+
+body {
+  background-color: var(--color-legal-cream);
+  color: var(--color-legal-dark);
+  font-family: var(--font-sans);
+}
+
+.legal-card {
+  background-color: #ffffff;
+  border: 1px solid #E5E1D8;
+  box-shadow: 0 4px 12px rgba(30, 37, 43, 0.02);
+}
+
+.legal-hdr {
+  font-family: var(--font-display);
+}
+
+.legal-code {
+  font-family: var(--font-mono);
+}
+
+@media print {
+  /* Hide the rest of the web application */
+  body *, #root * {
+    visibility: hidden;
+  }
+  
+  /* Show only the printable document structure and its nested nodes */
+  #printable-opinion-document, #printable-opinion-document * {
+    visibility: visible;
+  }
+  
+  /* Reposition and format the document perfectly to fit the printed canvas */
+  #printable-opinion-document {
+    position: absolute !important;
+    left: 0 !important;
+    top: 0 !important;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 20mm !important;
+    box-shadow: none !important;
+    border: none !important;
+    background: white !important;
+    color: black !important;
+  }
+
+  /* Force page breaks where appropriate */
+  .print-page-break {
+    page-break-before: always;
+    break-before: page;
+  }
+
+  /* Keep colors and backgrounds true to print */
+  * {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+}
+
