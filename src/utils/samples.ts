@@ -48,5 +48,45 @@ export const SAMPLE_CASES: SampleCase[] = [
 5. On November 5, 2025, Nurul Haque served a 15-day statutory eviction notice under Section 106 of the Transfer of Property Act, 1882, terminating the tenancy on grounds of breach and default, demanding vacant possession by November 30, 2025.
 6. Karimuddin received the notice on November 8, 2025, but refused to vacate, claiming he spent BDT 20,00,000 on high-end interior decoration and that the eviction notice is invalid.
 7. The lease reached its natural term expiry on December 31, 2025. Nurul Haque seeks to file a suit for recovery of possession, outstanding arrears of BDT 9,00,000, and mesne profits at BDT 10,000 per day since January 1, 2026, for unlawful holding.`
+  },
+  {
+    id: "preemption-suit-sat",
+    title: "Pre-emption Suit (Right of First Refusal)",
+    category: "Immovable Property / Transfer Law",
+    primaryAct: "State Acquisition and Tenancy Act 1950 (Section 96) & CPC 1908",
+    description: "A co-sharer by inheritance files a suit for pre-emption against a stranger-purchaser when land was sold without prior statutory notice or offering first refusal.",
+    factPattern: `1. The case property measures 12 Decimals of land, located in Mouza: Uttara, Savar, Dhaka (Khatian No: 712, S.A. Dag No: 1045). This land originally belonged to late Abul Kalam, who died leaving three sons (Asif Kalam, Fahim Kalam, and the petitioner, Tariqul Islam) as equal heirs inheriting 4 Decimals each in undivided joint possession.
+2. As co-sharers by inheritance, none of them had partitioned the land by metes and bounds or by registered partition deed.
+3. On January 12, 2026, Fahim Kalam sold his undivided 4 Decimals of land to a complete stranger, Mofizul Central (Opposite Party No. 1), in exchange for BDT 45,00,000 (Forty-Five Lakh Taka) through a registered Saf-Kabala deed.
+4. No prior statutory notice of sale was served upon Tariqul Islam under Section 89 of the State Acquisition and Tenancy Act, and no verbal or written offer of sale was made to him.
+5. Tariqul Islam came to know of this sale on March 15, 2026, upon seeing Mofizul Central attempting to construct a brick boundary wall on the land. Tariqul immediately procured a certified copy of the Saf-Kabala deed from the Savar Sub-Registry Office on April 5, 2026.
+6. On April 28, 2026, Tariqul Islam filed a Pre-emption Misc. Case Suit under Section 96 of the State Acquisition and Tenancy Act, 1950. He deposited the consideration money of BDT 45,00,000, along with the mandatory 25% statutory compensation (BDT 11,25,000) and 8% simple interest per annum through a treasury challan, demanding the court to order the transfer of the registered land to him.`
+  },
+  {
+    id: "cancellation-of-jaal-deed",
+    title: "Cancellation of Forged Sale Deed (Jaal Saf-Kabala)",
+    category: "Deed Cancellation / Specific Relief",
+    primaryAct: "Specific Relief Act 1877 (Section 39) & Registration Act 1908",
+    description: "Plaintiff discovers that an impersonator, colluding with a fraudulent relative, executed a forged sale deed of her property; she seeks cancellation of the void deed.",
+    factPattern: `1. Mrs. Halima Begum (Plaintiff) is the absolute, mutated owner in possession of a double-storied residential building on 5 decimals of land under Plot No: 18, Block-F, Halishahar, Chattogram (R.S. Khatian No: 339, R.S. Dag No: 1420).
+2. In July 2024, Halima traveled to the United States to visit her daughter, leaving her house under the care of her nephew, Jahangir Alam (Defendant No. 1).
+3. Upon her return on February 10, 2026, Jahangir Alam barred her entry to the house, claiming he purchased the entire property from her through a registered Saf-Kabala deed dated October 15, 2024, for a consideration of BDT 2,50,00,000 (Two Crore Fifty Lakh Taka), registered at the Double Mooring Sub-Registry Office.
+4. Halima was shocked, as she was in New York, USA, on the alleged date of execution (October 15, 2024)—as evidenced by her passport stamps, immigration records, and boarding passes. She never executed any deed of sale, nor did she receive any consideration money.
+5. Jahangir Alam, in collusion with local land brokers, employed an elderly female impersonator who placed her thumb impression and signed the register at the Sub-Registry Office by posing as Halima Begum, using a forged National ID (NID) card.
+6. Halima wishes to file a Civil Suit under Section 39 of the Specific Relief Act, 1877, seeking a decree declaring the registered Saf-Kabala Deed No: 4892 dated October 15, 2024, as forged, fraudulent, void-ab-initio, and ordering its cancellation and delivery to the Sub-Registry Office, along with a permanent injunction restraining her eviction.`
+  },
+  {
+    id: "money-suit-pronote",
+    title: "Money Suit for Loan Recovery based on Demand Promissory Note",
+    category: "Loan Recovery / Money Suit",
+    primaryAct: "Contract Act 1872 (Section 73), Negotiable Instruments Act 1881 & CPC 1908 (Order XXXVII)",
+    description: "A simple civil suit for the recovery of BDT 25,00,000 lent to a business associate, supported by a signed Demand Promissory Note and handwritten loan agreement.",
+    factPattern: `1. On August 15, 2024, Shamsul Arefin (Lender/Plaintiff) lent a sum of BDT 25,00,000 (Twenty-Five Lakh Taka) to his business associate, Mr. Anisur Rahman (Borrower/Defendant) to meet urgent business liabilities.
+2. The loan was disbursed in cash and via bank transfer, and on the same day, the Defendant executed a "Demand Promissory Note" and a "handwritten Loan Receipt/Agreement" on non-judicial stamps of BDT 300, promising to repay the entire principal amount with 10% interest per annum within 12 months (on or before August 15, 2025).
+3. After the expiry of the loan term on August 15, 2025, Shamsul (Plaintiff) demanded repayment of the principal and accrued interest. Anisur Rahman requested time and issued a personal check of Sonali Bank dated November 10, 2025, for the total due amount.
+4. On November 12, 2025, Shamsul presented the check for encashment, but it was dishonored on grounds of "Insufficient Funds" by the Bank. Shamsul notified Anisur immediately.
+5. Since the Defendant continued to make excuses, Shamsul served a formal Registry Legal Notice on January 5, 2026, demanding full repayment of BDT 25,00,000 plus interest within 15 days. The Notice was received on January 8, 2026, but the Defendant did not reply or repay.
+6. Shamsul wishes to file a Money Suit under Order XXXVII of the Code of Civil Procedure (Summary Procedure) or a regular Money Suit under Section 9 of the CPC for the recovery of BDT 25,00,000 along with interest and costs of the suit.`
   }
 ];
+
